@@ -11,3 +11,8 @@ test "Si neo es empleado, Hay un mensajero que puede enviar el paquete" {
 	paquete.destino(matrix)
 	assert.that(mensajeria.mensajeros().contains(neo))
 }
+
+test "roberto "{
+	roberto.designarVehiculo("camion")
+	assert.that(not matrix.dejarPasar(roberto))
+}
